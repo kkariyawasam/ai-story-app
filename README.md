@@ -1,52 +1,70 @@
-# AI Story & Image Generator
+# Getting Started with Create React App
 
-This project demonstrates the power of **two frontier AI models** working together in a single application:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- **GPT-4o-mini (OpenAI):** Generates a short 5-sentence story from a user-provided prompt.
-- **Stable Diffusion 3 (Stability AI):** Converts the generated story into a visually stunning AI-generated image.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- Users enter a **sentence** as a prompt.
-- The application **generates a short story** using OpenAI's **GPT-4o-mini**.
-- The story is then **converted into an image** using Stability AI’s **Stable Diffusion 3**.
-- The generated **story and image are displayed** on the UI.
+### `npm start`
 
-## Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Frontend:** React.js (for user interaction)
-- **Backend:** Flask (handles API requests)
-- **AI Models:**
-  - OpenAI **GPT-4o-mini** (text generation)
-  - Stability AI **Stable Diffusion 3** (image generation)
-- **API Integration:**
-  - OpenAI API for story generation
-  - Stability AI API for image generation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Usage
+### `npm test`
 
-1. Enter a sentence as a prompt in the input field.
-2. Click **"Generate Story"** to create a short story using **GPT-4o-mini**.
-3. Once the story appears, click **"Generate Illustration"** to convert it into an image using **Stable Diffusion 3**.
-4. The AI-generated image will be displayed in the UI.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Why This Project is Special
+### `npm run build`
 
-This project uniquely combines **two cutting-edge AI models** to create a seamless and interactive experience:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **GPT-4o-mini** provides **creative and engaging storytelling**.
-- **Stable Diffusion 3** translates text into **stunning AI-generated visuals**.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-This integration showcases the potential of **AI-powered creativity** in real-world applications!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Contributions
+### `npm run eject`
 
-Feel free to contribute by submitting **pull requests** or opening **issues** to improve the project.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## License
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-This project is open-source and available under the **MIT License**.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-🚀 **Experience the future of AI-driven creativity!**
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
